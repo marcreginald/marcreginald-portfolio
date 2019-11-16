@@ -1,0 +1,196 @@
+body {
+    margin-top: 100px;
+    background: #ffffff;
+    font-size: 16px;
+}
+
+
+section {
+    padding: 3em;
+    position: relative;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins;
+}
+
+p {
+    font-family: Roboto;
+}
+
+/*Service*/
+
+.service-box {
+    background-color: #292929;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.service-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #000000;
+    box-shadow: 0 0 0 10px #ffffff;
+}
+
+.service-box .service-ico {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.service-box .ico-circle {
+    transition: all 500ms ease;
+    font-size: 6rem;
+}
+
+.service-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+    color: #ffffff;
+}
+
+.service-box .s-description {
+    color: #4e4e4e;
+}
+
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #ffffff;
+    display: block;
+}
+
+.navbar-default {
+    background: #fff;
+    border: 0;
+    font-family: Poppins;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: #000 !important;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase img {
+    width: 90%;
+    margin-left: 60px;
+}
+
+#showcase .showcase-right {
+    margin-top: 90px;
+}
+
+
+#service {
+
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+#service p {
+    font-size: 32px;
+    font-family: 'Josefin Sans';
+    color: #000;
+}
+
+#service p.customer {
+    font-size: 20px;
+    color: #666;
+}
+
+
+#mywork {
+
+    background: #ffffff;
+}
+
+.github-widget {
+
+    font-family: poppins;
+}
+
+#contact {
+    background: url(../img/bg-contact.jpg);
+    padding: 40px;
+    color: #fff;
+}
+
+footer {
+    padding: 30px;
+}
+
+#testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+#testimonial p {
+    font-size: 18px;
+    font-family: Poppins;
+    color: #000;
+}
+
+#testimonial p.customer {
+    font-size: 20px;
+    color: #666;
+}
+
+.socials {
+    padding: 1.5rem 0;
+}
+
+.socials ul li {
+    display: inline-block;
+}
+
+.socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 3rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #ffffff;
+    transition: all 500ms ease;
+}
+
+.socials .ico-circle:hover {
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+}
+
+.list-ico {
+    line-height: 2;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.list-ico span {
+    color: #0078ff;
+    margin-right: 10px;
+}
