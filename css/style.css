@@ -165,6 +165,12 @@ footer {
     display: inline-block;
 }
 
+#experience {
+    background: url(../img/bg-contact.jpg);
+    padding: 40px;
+    color: #fff;
+}
+
 .socials .ico-circle {
     height: 40px;
     width: 40px;

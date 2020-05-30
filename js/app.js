@@ -20,13 +20,13 @@
   sr.reveal('.showcase-right', {
       delay: 900,
       duration: 1500,
-      origin: 'right',
+      origin: 'bottom',
       distance: '300px'
   });
   sr.reveal('.btn', {
       delay: 900,
       duration: 1500,
-      origin: 'right',
+      origin: 'bottom',
       distance: '300px'
   });
   sr.reveal('#testimonial', {
@@ -52,50 +52,62 @@ sr.reveal('.service-ico', {
 sr.reveal('.exp-left', {
   delay: 2000,
   duration: 1500,
-  origin: 'left',
+  origin: 'top',
   distance: '300px'
 });
 sr.reveal('.exp-right1', {
   delay: 2100,
   duration: 1500,
-  origin: 'right',
+  origin: 'top',
   distance: '300px'
 });
 sr.reveal('.exp-right2', {
   delay: 2200,
   duration: 1500,
-  origin: 'right',
+  origin: 'top',
   distance: '300px'
 });
 sr.reveal('.exp-right3', {
   delay: 2300,
   duration: 1500,
-  origin: 'right',
+  origin: 'top',
+  distance: '300px'
+});
+sr.reveal('.exp-right3', {
+  delay: 2300,
+  duration: 1500,
+  origin: 'bottom',
+  distance: '300px'
+});
+sr.reveal('.exp-right4', {
+  delay: 2300,
+  duration: 1500,
+  origin: 'bottom',
   distance: '300px'
 });
 sr.reveal('.mywork-left1', {
   delay: 3100,
   duration: 1500,
-  origin: 'left',
+  origin: 'bottom',
   distance: '300px'
 });
 
 sr.reveal('.mywork-left2', {
   delay: 3200,
   duration: 1500,
-  origin: 'left',
+  origin: 'top',
   distance: '300px'
 });
 sr.reveal('.mywork-left3', {
   delay: 3250,
   duration: 1500,
-  origin: 'left',
+  origin: 'top',
   distance: '300px'
 });
 sr.reveal('.github-widget', {
   delay: 3000,
   duration: 1500,
-  origin: 'right',
+  origin: 'top',
   distance: '300px'
 });
 

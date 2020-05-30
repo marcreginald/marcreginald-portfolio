@@ -89,9 +89,33 @@
                         </p>
 
                     </div>
-                    <button class="btn btn-default btn-lg text-uppercase" data-toggle="collapse" data-target="#demo">My
-                        Skills, Click
-                        here!</button>
+
+        
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <button class="btn btn-default btn-lg text-uppercase" data-toggle="collapse" data-target="#demo">My
+                                    Skills, Click
+                                    here!</button>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                            <a href="./uploads/Profile.pdf" target="_blank" type="button" class="btn btn-default btn-lg text-uppercase" id="target">Download My
+                                Resume
+                                here!</a>
+                                <script>
+                                    (($)=> {
+                                     $(document).ready(() => {
+                                         var ulr = './uploads/Profile.pdf';
+                                      $('a').on('mousedown',()=> {
+                                          $(this).attr("href", url);
+                                      })
+                                     });
+                                   });
+                                 </script>
+                            </div>
+                        </div>
+               
+                  
+                       
                     <div id="demo" class="collapse">
                         <br />
                         <div class="card">
@@ -113,9 +137,9 @@
                                     <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <i class="fab fa-php"></i> <span>PHP</span> <span class="pull-right">90%</span>
+                                <i class="fab fa-php"></i> <span>PHP</span> <span class="pull-right">75%</span>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <i class="fab fa-js-square"></i> <span>JAVASCRIPT</span> <span
@@ -124,34 +148,15 @@
                                     <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <i class="fab fa-microsoft"></i> <span>ASP.NET FRAMEWORK</span> <span
+
+                                <i class="fab fa-wordpress"></i> <span>WORDPRESS</span> <span
                                     class="pull-right">75%</span>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
 
-                                <i class="fab fa-php"></i> <span>CODEIGNITER FRAMEWORK</span> <span
-                                    class="pull-right">85%</span>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-
-                                <i class="fab fa-wordpress"></i> <span>WORDPRESS</span> <span
-                                    class="pull-right">70%</span>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-
                                 <i class="fas fa-database"></i> <span>MONGODB</span> <span class="pull-right">80%</span>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-
-                                <i class="fab fa-react"></i> <span>EXPRESSJS</span> <span class="pull-right">80%</span>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
                                         aria-valuemin="0" aria-valuemax="100"></div>
@@ -163,7 +168,7 @@
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
 
-                                <i class="fab fa-node"></i> <span>NODE JS</span> <span class="pull-right">80%</span>
+                                <i class="fab fa-node"></i> <span>NODE/EXPRESS JS</span> <span class="pull-right">80%</span>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
                                         aria-valuemin="0" aria-valuemax="100"></div>
@@ -175,30 +180,13 @@
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
 
-                                <i class="fab fa-android"></i> <span>Android Development</span> <span
-                                    class="pull-right">80%</span>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-
                                 <i class="fab fa-git"></i> <span>Git</span> <span class="pull-right">80%</span>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-
-                                <button type="button" class="btn btn-primary" onclick="myFunction()">Download My
-                                    Resume
-                                    here!</button>
-
-                                <p id="resume"></p>
-
-                                <script>
-                                    function myFunction() {
-                                        alert("This Function is still in development process, Sorry!");
-                                    }
-                                </script>
+                                
+                             
                             </div>
                         </div>
                     </div>
@@ -225,7 +213,17 @@
                             <span class="ico-circle"><i class="fas fa-laptop-code"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">FullStack Development</h2>
+                            <h2 class="s-title">Front-End Development</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="service-box">
+                        <div class="service-ico">
+                            <span class="ico-circle"><i class="fas fa-server"></i></span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Back-End Development</h2>
                         </div>
                     </div>
                 </div>
@@ -235,7 +233,7 @@
                             <span class="ico-circle"><i class="fas fa-search"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">QA Manual Testing </h2>
+                            <h2 class="s-title">Software Tester </h2>
                         </div>
                     </div>
                 </div>
@@ -250,129 +248,57 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="fab fa-android"></i><i class="fab fa-apple"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Mobile Development</h2>
-                        </div>
-                    </div>
-                </div>
+    
             </div>
         </div>
     </section>
 
 
-    <section id="experience">
+    <section id="experience" class="experience">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="exp-left">
-                        <img src="img/exp.png" style="width: 100%;" />
-
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-12 col-lg-6">
                     <h2 style=" text-transform: uppercase;">My Work Experience</h2>
                     <hr />
-                    <br />
                     <div class="exp-right1">
                         <h2 style=" text-transform: uppercase;"><i class="fas fa-briefcase"></i> g-hoven i.t.
                             solutions</h2>
                         <p style=" text-transform: uppercase;">intern / november 2019 - march 2019</p>
                     </div>
-
                     <br />
                     <div class="exp-right2">
                         <h2 style=" text-transform: uppercase;"><i class="fas fa-briefcase"></i> MERISTONE
                             INFORMATION TECHNOLOGY SERVICES</h2>
                         <p style=" text-transform: uppercase;">web developer / april 2019 - may 2019</p>
                     </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <br />
                     <br />
                     <div class="exp-right3">
                         <h2 style=" text-transform: uppercase;"><i class="fas fa-briefcase"></i> SKIPJACK CORP.
                         </h2>
-                        <p style=" text-transform: uppercase;">qa engineer / june 2019 - present</p>
+                        <p style=" text-transform: uppercase;">qa engineer / june 2019 - november 2019</p>
                     </div>
-
+                    <br />
+                    <div class="exp-right4">
+                        <h2 style=" text-transform: uppercase;"><i class="fas fa-briefcase"></i> RCG Global Services
+                            <p>Client: Sunlife Financial - Software Tester</p>
+                        </h2>
+                        <p style=" text-transform: uppercase;">qa engineer/ web developer / feb 2020 - present</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section id="mywork">
         <div class="container">
-            <h2 style=" text-transform: uppercase;">My Work</h2>
-            <br />
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="mywork-left1">
-                        <div class="card mb-3">
-                            <div class=" row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="img/ghoven.JPG" class="card-img" style="width: 100%;">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">GHITS</h5>
-                                        <p class="card-text">I created this website when I was a web developer intern at
-                                            G-HOVEN I.T. Solutions, I created some few websites.
-                                        </p>
-                                        <button class="btn btn-default btn-lg"><a target="_blank"
-                                                href="http://www.g-hoven.com/">Visit
-                                                site</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="mywork-left2">
-                        <div class="card mb-3">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="img/home.JPG" class="card-img" style="width: 100%;">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">My Portfolio v1</h5>
-                                        <p class="card-text">This project is my very first portfolio.
-                                        </p>
-                                        <button class="btn btn-default btn-lg"><a target="_blank"
-                                                href="https://github.com/marcreginald/MarcFolio">Visit
-                                                site</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="mywork-left3">
-                        <div class="card mb-3">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="img/logo_welcome.png" class="card-img" style="width: 100%;">
-                                </div>
-                                <div class=" col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">FoodExpress</h5>
-                                        <p class="card-text">This android application is mu very 1st android app, A
-                                            delivery app for our city.
-                                        </p>
-                                        <button class="btn btn-default btn-lg"><a target="_blank"
-                                                href="http://www.g-hoven.com/">Visit
-                                                site</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
+        
+                <div class="col-md-12 col-lg-12">
                     <div class="mywork-right">
-                        <h2 style=" text-transform: uppercase; color"><i class="fab fa-github"></i> My GitHub
-                            Repository</h2>
+                        <h2 style=" text-transform: uppercase;"><i class="fab fa-github"></i> My GitHub
+                            Repository <a href="https://github.com/marcreginald">Click here to view all my github projects</a></h2>
+                   
                         <hr />
                         <br />
                         <div class="github-widget" data-user="marcreginald"
@@ -386,25 +312,11 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-sm-5">
-                    <form>
-                        <div class="form-group">
-                            <label style="color: #ffffff;">Name: </label>
-                            <input class="form-control" type="text" name="" value="" placeholder="Enter Name" />
-                        </div>
-                        <div class="form-group">
-                            <label style="color: #ffffff;">Email: </label>
-                            <input class="form-control" type="email" name="" value="" placeholder="Enter Email" />
-                        </div>
-                        <div class="form-group">
-                            <label style="color: #ffffff;">Message: </label>
-                            <textarea class="form-control" type="text" name="" value=""
-                                placeholder="Enter Name"></textarea>
-                        </div>
-                        <button class="btn btn-default"><a href="mailto:marcpanaligan98@gmail.com">Submit</a></button>
-                    </form>
+                <div class="col-md-6 col-lg-6">
+                  <img src="./img/Business-Card-2.jpg" alt="" width="100%" srcset="" class="img-fluid make_bigger">
+                
                 </div>
-                <div class="col-md-7 col-sm-7">
+                <div class="col-md-6 col-lg-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                         <h5 class="title-left">
                             Get in Touch
@@ -412,7 +324,7 @@
                     </div>
                     <div class="more-info">
                         <p class="lead">
-                            Feel free to contact me and have a chat and I would love if it is a job order. Have a nice
+                            Feel free to contact me and have a chat. I would love if it is a job order. Have a nice
                             day.
                         </p>
                         <ul class="list-ico">
@@ -421,20 +333,7 @@
                             <li><i class="fas fa-at"></i> marcpanaligan98@gmail.com</li>
                         </ul>
                     </div>
-                    <div class="socials">
-                        <ul>
-                            <li><a href="https://www.facebook.com/realmreginald"><span class="ico-circle"><i
-                                            class="fab fa-facebook"></i></span></a></li>
-                            <li><a href="https://www.instagram.com/thisismreginald/"><span class="ico-circle"><i
-                                            class="fab fa-instagram"></i></span></a></li>
-                            <li><a href="https://twitter.com/fallin1angel"><span class="ico-circle"><i
-                                            class="fab fa-twitter"></i></span></a></li>
-                            <li><a href="https://www.linkedin.com/in/marc-reginald-panaligan-a06697123/"><span
-                                        class="ico-circle"><i class="fab fa-linkedin"></i></i></span></a></li>
-                            <li><a href="https://github.com/marcreginald"><span class="ico-circle"><i
-                                            class="fab fa-github"></i></i></span></a></li>
-                        </ul>
-                    </div>
+                  
                 </div>
             </div>
         </div>
